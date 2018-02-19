@@ -65,6 +65,7 @@
             this.Login.Text = "Entrar";
             this.Login.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Login.UseVisualStyleBackColor = true;
+            this.Login.Click += new System.EventHandler(this.Login_Click);
             // 
             // label3
             // 
