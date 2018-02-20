@@ -28,5 +28,12 @@ namespace PuntoVenta
             MessageBox.Show("Hola Ariel Ramos");
             MessageBox.Show("Holaas sad ");
         }
+        private void limpiar_grupbox()
+        {
+            textBox1.Text = "";
+            txtCambio.Text = "";
+            txtFolio.Text = "";
+            txtTotal.Text = "";
+        }
     }
 }
