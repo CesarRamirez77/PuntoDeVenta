@@ -16,5 +16,24 @@ namespace PuntoVenta
         {
             InitializeComponent();
         }
+
+        private void Ventas_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnVentas_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola");
+            MessageBox.Show("Hola Ariel Ramos");
+            MessageBox.Show("Holaas sad ");
+        }
+        private void limpiar_grupbox()
+        {
+            textBox1.Text = "";
+            txtCambio.Text = "";
+            txtFolio.Text = "";
+            txtTotal.Text = "";
+        }
     }
 }

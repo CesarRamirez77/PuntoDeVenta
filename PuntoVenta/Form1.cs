@@ -60,7 +60,7 @@ namespace PuntoVenta
             }
             catch (Exception Error)
             {
-                MessageBox.Show(Error.Message);
+                MessageBox.Show("Ha ocurrido este error: " + Error.Message);
             }
             finally
             {
