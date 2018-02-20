@@ -26,6 +26,7 @@ namespace PuntoVenta
         {
             MessageBox.Show("Hola");
             MessageBox.Show("Hola Ariel Ramos");
+            MessageBox.Show("Holaas sad ");
         }
     }
 }
