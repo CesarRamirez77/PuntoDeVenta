@@ -14,7 +14,8 @@ namespace PuntoVenta
     
     public partial class Form1 : Form
     {
-        SqlConnection con = new SqlConnection("Data Source=LAPTOP-KFD5R0EP//SQLEXPRESS;Initial Catalog=PuntoDeVenta;Integrated Security = True;");
+
+        SqlConnection con = new SqlConnection("Data Source=LAPTOP-KFD5R0EP;Initial Catalog=PuntoDeVenta; Persist Security Info=True;User ID=Administrador;Password=123");
         public Form1()
         {
             InitializeComponent();
@@ -30,13 +31,13 @@ namespace PuntoVenta
 
         }
 
-        public void Logear(String pUsuario, String pContraseña)
+        public void Loguear(String pUsuario, String pContraseña)
         {
             try
             {
 
                 con.Open();
-                SqlCommand Cmd = new SqlCommand("Select Usuario from Usuarios where Usuario = @Usuario AND Contraseña =@Contraseña", con);
+                SqlCommand Cmd = new SqlCommand("Select Usuarios from Login where Usuarios =@Usuario AND  Contraseña= @Contraseña", con);
 
                 Cmd.Parameters.AddWithValue("Usuario", pUsuario);
                 Cmd.Parameters.AddWithValue("Contraseña", pContraseña);
@@ -66,12 +67,12 @@ namespace PuntoVenta
                 con.Close();
             }
         }
-
         private void Login_Click(object sender, EventArgs e)
         {
-            Logear(txtUser.Text, txtContra.Text);
+            Loguear(txtUser.Text, txtContra.Text);
         }
+      }
     }
         
-    }
+    
 
