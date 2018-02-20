@@ -16,5 +16,15 @@ namespace PuntoVenta
         {
             InitializeComponent();
         }
+
+        private void Ventas_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnVentas_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola");
+        }
     }
 }

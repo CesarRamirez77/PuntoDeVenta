@@ -83,17 +83,18 @@
             // 
             // btnVentas
             // 
-            this.btnVentas.Font = new System.Drawing.Font("Raleway", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVentas.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVentas.Location = new System.Drawing.Point(46, 61);
             this.btnVentas.Name = "btnVentas";
             this.btnVentas.Size = new System.Drawing.Size(121, 44);
             this.btnVentas.TabIndex = 1;
             this.btnVentas.Text = "Ventas";
             this.btnVentas.UseVisualStyleBackColor = true;
+            this.btnVentas.Click += new System.EventHandler(this.btnVentas_Click);
             // 
             // btnClientes
             // 
-            this.btnClientes.Font = new System.Drawing.Font("Raleway", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClientes.Location = new System.Drawing.Point(173, 62);
             this.btnClientes.Name = "btnClientes";
             this.btnClientes.Size = new System.Drawing.Size(121, 44);
@@ -103,7 +104,7 @@
             // 
             // btnProductos
             // 
-            this.btnProductos.Font = new System.Drawing.Font("Raleway", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProductos.Location = new System.Drawing.Point(300, 62);
             this.btnProductos.Name = "btnProductos";
             this.btnProductos.Size = new System.Drawing.Size(121, 44);
@@ -113,7 +114,7 @@
             // 
             // btnReportes
             // 
-            this.btnReportes.Font = new System.Drawing.Font("Raleway", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReportes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReportes.Location = new System.Drawing.Point(427, 62);
             this.btnReportes.Name = "btnReportes";
             this.btnReportes.Size = new System.Drawing.Size(121, 44);
@@ -151,26 +152,26 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Montserrat", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(79, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(502, 29);
+            this.label1.Size = new System.Drawing.Size(448, 25);
             this.label1.TabIndex = 10;
             this.label1.Text = "Sistema punto de venta \"Nombre del sistema\"";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(12, 120);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(244, 26);
+            this.label2.Size = new System.Drawing.Size(229, 24);
             this.label2.TabIndex = 11;
             this.label2.Text = "VENTA DE PRODUCTOS";
             // 
             // btnCorte
             // 
-            this.btnCorte.Font = new System.Drawing.Font("Raleway", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCorte.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCorte.Location = new System.Drawing.Point(554, 62);
             this.btnCorte.Name = "btnCorte";
             this.btnCorte.Size = new System.Drawing.Size(121, 43);
@@ -191,24 +192,24 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.Info;
-            this.label3.Font = new System.Drawing.Font("Montserrat", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(17, 174);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(165, 21);
+            this.label3.Size = new System.Drawing.Size(146, 18);
             this.label3.TabIndex = 14;
             this.label3.Text = "Código del producto:";
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Raleway", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(190, 175);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(311, 25);
+            this.textBox1.Size = new System.Drawing.Size(311, 24);
             this.textBox1.TabIndex = 15;
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Font = new System.Drawing.Font("Raleway", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregar.Location = new System.Drawing.Point(510, 167);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(165, 34);
@@ -228,7 +229,7 @@
             // btnBuscarP
             // 
             this.btnBuscarP.BackColor = System.Drawing.Color.Transparent;
-            this.btnBuscarP.Font = new System.Drawing.Font("Raleway", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscarP.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscarP.Location = new System.Drawing.Point(24, 223);
             this.btnBuscarP.Name = "btnBuscarP";
             this.btnBuscarP.Size = new System.Drawing.Size(156, 39);
@@ -238,7 +239,7 @@
             // 
             // btnArticuloC
             // 
-            this.btnArticuloC.Font = new System.Drawing.Font("Raleway", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnArticuloC.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnArticuloC.Location = new System.Drawing.Point(186, 223);
             this.btnArticuloC.Name = "btnArticuloC";
             this.btnArticuloC.Size = new System.Drawing.Size(155, 39);
@@ -248,7 +249,7 @@
             // 
             // btnBorrarP
             // 
-            this.btnBorrarP.Font = new System.Drawing.Font("Raleway", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBorrarP.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBorrarP.Location = new System.Drawing.Point(347, 223);
             this.btnBorrarP.Name = "btnBorrarP";
             this.btnBorrarP.Size = new System.Drawing.Size(155, 39);
@@ -269,10 +270,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.SystemColors.Menu;
-            this.label5.Font = new System.Drawing.Font("Raleway", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(20, 289);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(101, 14);
+            this.label5.Size = new System.Drawing.Size(101, 15);
             this.label5.TabIndex = 23;
             this.label5.Text = "Código de barras";
             // 
@@ -280,50 +281,50 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Raleway", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(119, 290);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(147, 14);
+            this.label6.Size = new System.Drawing.Size(143, 15);
             this.label6.TabIndex = 24;
             this.label6.Text = "Descripción del producto";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Raleway", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(316, 288);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(76, 14);
+            this.label7.Size = new System.Drawing.Size(74, 15);
             this.label7.TabIndex = 25;
             this.label7.Text = "Precio venta";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Raleway", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(424, 289);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 14);
+            this.label8.Size = new System.Drawing.Size(35, 15);
             this.label8.TabIndex = 26;
             this.label8.Text = "Cant.";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Raleway", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(498, 288);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(50, 14);
+            this.label9.Size = new System.Drawing.Size(49, 15);
             this.label9.TabIndex = 27;
             this.label9.Text = "Importe";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Raleway", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(582, 288);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(64, 14);
+            this.label10.Size = new System.Drawing.Size(63, 15);
             this.label10.TabIndex = 28;
             this.label10.Text = "Existencia";
             // 
@@ -386,7 +387,7 @@
             // 
             // btnCobrar
             // 
-            this.btnCobrar.Font = new System.Drawing.Font("Raleway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCobrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCobrar.Location = new System.Drawing.Point(419, 578);
             this.btnCobrar.Name = "btnCobrar";
             this.btnCobrar.Size = new System.Drawing.Size(164, 41);
@@ -396,10 +397,10 @@
             // 
             // txtTotal
             // 
-            this.txtTotal.Font = new System.Drawing.Font("Montserrat", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTotal.Location = new System.Drawing.Point(585, 579);
             this.txtTotal.Name = "txtTotal";
-            this.txtTotal.Size = new System.Drawing.Size(130, 40);
+            this.txtTotal.Size = new System.Drawing.Size(130, 38);
             this.txtTotal.TabIndex = 37;
             this.txtTotal.Text = "$0.00";
             this.txtTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -407,10 +408,10 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Raleway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(20, 591);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(238, 19);
+            this.label12.Size = new System.Drawing.Size(226, 20);
             this.label12.TabIndex = 39;
             this.label12.Text = "0 Productos en la venta actual.";
             // 
@@ -426,16 +427,16 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(9, 642);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(92, 18);
+            this.label13.Size = new System.Drawing.Size(85, 16);
             this.label13.TabIndex = 41;
             this.label13.Text = "Le atiende:";
             // 
             // btnCambioU
             // 
-            this.btnCambioU.Font = new System.Drawing.Font("Raleway", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCambioU.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCambioU.Image = ((System.Drawing.Image)(resources.GetObject("btnCambioU.Image")));
             this.btnCambioU.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCambioU.Location = new System.Drawing.Point(103, 635);
@@ -447,7 +448,7 @@
             // 
             // txtFolio
             // 
-            this.txtFolio.Font = new System.Drawing.Font("Raleway", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFolio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFolio.Location = new System.Drawing.Point(243, 637);
             this.txtFolio.Name = "txtFolio";
             this.txtFolio.Size = new System.Drawing.Size(98, 26);
@@ -457,7 +458,7 @@
             // 
             // btnReimprimir
             // 
-            this.btnReimprimir.Font = new System.Drawing.Font("Raleway", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReimprimir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReimprimir.Location = new System.Drawing.Point(347, 631);
             this.btnReimprimir.Name = "btnReimprimir";
             this.btnReimprimir.Size = new System.Drawing.Size(164, 38);
@@ -467,16 +468,16 @@
             // 
             // txtCambio
             // 
-            this.txtCambio.Font = new System.Drawing.Font("Montserrat", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCambio.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCambio.Location = new System.Drawing.Point(585, 631);
             this.txtCambio.Name = "txtCambio";
-            this.txtCambio.Size = new System.Drawing.Size(130, 40);
+            this.txtCambio.Size = new System.Drawing.Size(130, 38);
             this.txtCambio.TabIndex = 45;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Raleway", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(514, 642);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(71, 18);
@@ -532,6 +533,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Ventas";
             this.Text = "Ventas";
+            this.Load += new System.EventHandler(this.Ventas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
