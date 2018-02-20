@@ -25,7 +25,7 @@ namespace PuntoVenta
         private void btnVentas_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hola");
-            MessageBox.Show("Hola Ariel.");
+            MessageBox.Show("Hola Ariel Ramos");
         }
     }
 }
